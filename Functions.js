@@ -1,4 +1,4 @@
-//Finction Statement
+//Finction Statement or //Finction Declaration
 
 function a(){
     console.log("a called");
@@ -12,9 +12,11 @@ var b = function b(){
 }
 b();
 
-//Finction Declaration
-
 //Anonymous Finction 
+
+// function () {
+
+// }
 
 //Need Finction Expression
 
