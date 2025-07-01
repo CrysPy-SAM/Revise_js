@@ -5,7 +5,7 @@ function double(x) {
 }
 
 function triple(x) {
-    return X *3;
+    return x *3;
 }
 
 const output = arr.map(triple);
