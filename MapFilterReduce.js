@@ -7,9 +7,10 @@ function double(x) {
 function triple(x) {
     return x *3;
 }
-function binary(x) {
-    return x.toString(2);
-}
 
-const output = arr.map(binary);
+
+
+const output = arr.map((x) => {
+    x.toString(2)
+});
 console.log(output);
