@@ -31,3 +31,28 @@ const myFunction = function(){
 
 
 console.log(typeof anotherId);
+
+
+
+// Memory
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive type), Heap(Nom Primitive type or Reference )
+
+let myYoutubeName = "SatyamONG.com"
+let anothername = "dotCom"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "ssmishra.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "smishra.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
