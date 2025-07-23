@@ -38,5 +38,23 @@ function loginUserMassage(username){
       return `${username} just loggedIn!`
 }
 
-console.log((loginUserMassage()))
+// console.log((loginUserMassage()))
 
+
+
+function calculateCartprize(...num1){
+    return num1
+
+}
+
+// console.log(calculateCartprize(200, 300, 400, 5000))
+
+const user ={
+    username:"Satyam",
+    prise: 200
+}
+
+function handleObject(anyobje) {
+    console.log(`username is ${anyobje.username} and prise is ${anyobje.prise}`)
+}
+handleObject(user);
