@@ -1,11 +1,11 @@
-// let a = 300;
+let a = 300;
 
 if (true) {
-  var a = 30;
+  let a = 30;
   const b = 40;
   console.log("INNER:", a);
 }
-console.log("INNER:", a);
+
 let array = [1, 2, 3, 4];
 
 for (let i = 0; i < array.length; i++) {
@@ -16,29 +16,29 @@ for (let i = 0; i < array.length; i++) {
 console.log(a);
 
 
-// function one(){
-//     const username = "satyam"
+function one(){
+    const username = "satyam"
 
-//     function two(){
-//         const website = "youtube"
-//         console.log(username);
+    function two(){
+        const website = "youtube"
+        console.log(username);
     
-//     }
-//      //console.log(username);
+    }
+     //console.log(username);
 
-//     two()
-// }
+    two()
+}
 
-// // one()
+// one()
 
 
-// if (true){
-//     const username = "Satyam"
-//     if (username === "Satyam"){
-//       const website = "youtube"
-//       console.log(username + website);
-//     }
-//     console.log(website);
-// }
+if (true){
+    const username = "Satyam"
+    if (username === "Satyam"){
+      const website = "youtube"
+      console.log(username + website);
+    }
+    console.log(website);
+}
 
 // console.log(username);
